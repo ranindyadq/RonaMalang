@@ -1,0 +1,26 @@
+// Blok plugins harus berada di bagian paling awal
+plugins {
+  // Tambahkan plugin yang dibutuhkan
+  id 'com.google.gms.google-services' version '4.4.2' apply false
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.buildDir = "../build"
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+}
+
+subprojects {
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

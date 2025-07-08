@@ -1,0 +1,53 @@
+name: rona_malang
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/background.png
+    - assets/google.png
+    - assets/balekambang.jpg
+    - assets/bromo.png
+    - assets/jatimpark3.png
+    - assets/segosambelcakuut.png
+    - assets/tumpaksewuterjun.png
+    - assets/piacapbangkok.png
+    - assets/jatimpark1.png
+    - assets/pantaibatubengkung.png
+    - assets/jatimpark2.png
+    - assets/bns.png
+    - assets/paralayangbatu.png
+    - assets/museumangkut.png
+    - assets/warungbaksopresident.png
+    - assets/rawonsuhat.png
+    - assets/angsleronde.png
+    - assets/posketanlegenda.png
+    - assets/miecelaket.png
+    - assets/cobanrondo.png
+    - assets/tamanrekreasiselcta.png
+    - assets/keripikbuah.png
+    - assets/malangstrudel.png
+    - assets/bolumalangsingosari.png
+    - assets/sensa.png
+    - assets/siiplah.png
+    - assets/tumpaksewu.png
